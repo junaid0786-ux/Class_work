@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+
+}
+
+.container {
+  border: 2px solid black;
+  width: 600px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px;
+  border-radius: 50px;
+ 
+}
+
+.loader {
+  background: red;
+  width: 1px;
+  height: 50px;
+  display: flex;
+  align-items: center ;
+  padding: 10px;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.container:hover {
+  box-shadow: 5px 5px 10px rgb(167, 167, 167);
+  transition: box-shadow  300ms , transform 300ms linear;
+  transform: translateY(-5px);
+  transform: scaleY(1.1) scaleX(1.1) ;
+  .loader {
+    width: 100%;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: width 5s ease-in-out, background-color 5s ease-in-out,
+      color 5s ease-in-out;
+  }
+}
+
+#outer1{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    
+
+    #inner1{
+        height: 50px;
+    }
+}
+
+#outer1:hover {
+    #inner1 {
+        animation: MyAnimation 5s linear;
+
+    }
+}
+
+@keyframes MyAnimation {
+
+    0% {
+        width: 0%;
+        background-color: red;
+    }
+
+    50% {
+        width: 50%;
+        background-color: yellow;
+    }
+
+    100% {
+        width: 100%;
+        background-color: green;
+    }
+    
+}
+
+#Box1{
+    height: 460px;
+    width: 460px;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+
+    #anmibox{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        position: absolute;
+    }
+}
+
+
+#Box1:hover{
+
+    #anmibox{
+        animation: moveBox 5s linear infinite;
+
+    }
+
+}
+
+@keyframes moveBox {
+
+    0% {
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+    }
+
+    25% {
+        top: 0%;
+        left: 400px;
+        background-color: green;
+    }
+
+    50%{
+        top: 400px;
+        left: 400px;
+        background-color: red;
+    }
+
+    75%{
+        top: 400px;
+        left:0px;
+        background-color: yellow;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+    }
+
+
+    
+}

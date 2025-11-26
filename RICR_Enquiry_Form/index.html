@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="mainHeader1">
+      <nav class="navbar navbar-expand-lg bg-white py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../Registration_Form/asstes/logo-2.png"
+              width="170px"
+              alt="logo"
+            />
+          </a>
+
+          <div
+            class="collapse navbar-collapse justify-content-center order-lg-2"
+            id="mainNav"
+          >
+            <ul class="navbar-nav gap-4 fs-5">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#cources">Courses</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#IDE">IDE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-lg-flex align-items-center gap-3 order-lg-3">
+            <div class="d-flex align-items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"
+                />
+              </svg>
+              <span class="fs-5 fw-medium">+91 000000000</span>
+            </div>
+
+            <div>
+              <div id="navbutton" class="btn">Student Login</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <header id="mainHeader">
+      <nav class="navbar navbar-expand-lg bg-white py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../Registration_Form/asstes/logo-2.png"
+              width="170px"
+              alt="logo"
+            />
+          </a>
+
+          <div
+            class="collapse navbar-collapse justify-content-center order-lg-2"
+            id="mainNav"
+          >
+            <ul class="navbar-nav gap-4 fs-5">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#cources">Courses</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#IDE">IDE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-lg-flex align-items-center gap-3 order-lg-3">
+            <div class="d-flex align-items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                viewBox="0 0 640 640"
+              >
+                <path
+                  d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"
+                />
+              </svg>
+              <span class="fs-5 fw-medium">+91 000000000</span>
+            </div>
+
+            <div>
+              <div id="navbutton" class="btn">Student Login</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="maincontainer mt-5">
+      <div id="maindiv" class="container w-75 rounded-4 p-5 g-4">
+        <div class="text-center mb-5">
+          <h1 class="fw-bold display-5">Enquiry Form</h1>
+          <p class="text-muted fs-5 fw-light">
+            Have questions or need assistance? Fill out the form below to
+            connect with our team and explore your opportunities.
+          </p>
+        </div>
+
+        <div id="formdiv" class="row g-4">
+          <div class="col-md-6">
+            <label class="form-label">Person Name*</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Person Name"
+              id="name"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Contact Number*</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Contact Number"
+              id="contact"
+            />
+          </div>
+
+          <div class="col-md-8">
+            <label class="form-label">Email*</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              id="email"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <label class="form-label">Qualification*</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Qualification"
+              id="Qualification"
+            />
+          </div>
+
+          <div class="col-md-12">
+            <label class="form-label">College/School Name*</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="College/School Name"
+              id="schoolname"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Year*</label>
+            <select class="form-select" id="year">
+              <option selected disabled>Year</option>
+              <option>1st Year</option>
+              <option>2nd Year</option>
+              <option>3rd Year</option>
+              <option>4th Year</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Branch*</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Branch"
+              id="branch"
+            />
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <div>
+              <ul class="list-unstyled text-muted fw-normal">
+                <h3 class="fs-5">Interested in Which Course*</h3>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Full Stack Web Development - Placement Oriented</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Data Science with Python - Placement Oriented</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Data Analytics with Python - Placement Oriented</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Business Analyst</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Java Programming</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >Python Programming</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="course"
+                    id=""
+                  />
+                  <label class="form-check-label" 
+                    >C/C++ Programming</label
+                  >
+                </li>
+                <li class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    class="form-check-input dark-check"
+                    name="Course"
+                  />
+                  <label class="form-check-label" >Other</label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="w-50 px-3 d-flex flex-column gap-3">
+              <div>
+                <h3 class="fs-5 text-muted fw-normal">Source of Information</h3>
+                <p class="fs-5 primery-5 fw-semibold">
+                  (Only choose 'Received call from institute' if you actually
+                  got a call from us)*
+                </p>
+                <div>
+                  <select class="form-select" id="Information">
+                    <option selected disabled>Source Of Information</option>
+                    <option>NewsPaper/Print Media</option>
+                    <option>Friends/Relative</option>
+                    <option>Social Media</option>
+                    <option>Workshop/Seminar</option>
+                    <option>
+                      Recived Call From Institute (Only choose if you actually
+                      get a call from us )
+                    </option>
+                    <option>other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="Name of Executive" class="text-muted"
+                  >Name of Executive*</label
+                >
+                <select
+                  class="form-select lock-cursor"
+                  disabled
+                  id="ExecutiveName"
+                >
+                  <option selected disabled>Name of Executive</option>
+                  <option>Kasim Khan</option>
+                  <option>Anushree Chaubey</option>
+                  <option>Sheshram Ahirwar</option>
+                  <option>Shani Mishra</option>
+                  <option>Sankalp Shukla</option>
+                  <option>Deepali Tated</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="buttondiv">
+          <button
+            class="rounded-5 p-3 fw-semibold d-flex align-items-center justify-content-center"
+            onclick="submitForm()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="text-white"
+      style="background-color: #125785; padding-top: 80px; padding-bottom: 60px"
+    >
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6 pe-lg-5">
+            <div class="d-flex align-items-center mb-4">
+              <img
+                src="../Registration_Form/asstes/logo.png"
+                alt="RICR Logo"
+                style="height: 55px; margin-right: 10px"
+              />
+            </div>
+
+            <p class="lh-lg" style="max-width: 350px">
+              RICR is a subsidiary of Raj Digital Private Limited. It is a
+              premier coding and robotics institute, empowering students with
+              cutting-edge education and real-world skills for a tech-driven
+              future.
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="fw-bold mb-4">Quick Links</h5>
+            <ul class="list-unstyled lh-lg">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Courses</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Host a Workshop</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Community Ambassador</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Work With Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h5 class="fw-bold mb-4">Other Links</h5>
+            <ul class="list-unstyled lh-lg mb-5">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Edunest Facility</a
+                >
+                <hr class="w-75" />
+              </li>
+            </ul>
+
+            <h5 class="fw-bold mb-3">Policies</h5>
+            <ul class="list-unstyled lh-lg">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Terms of Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="fw-bold mb-4">Information</h5>
+
+            <p class="mb-4 d-flex align-items-center gap-2">
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              <span class="d-flex">
+                Minal Mall, 4th Floor, Minal Residency, JK Road, Bhopal Pincode
+                (462023)</span
+              >
+            </p>
+
+            <p class="lh-lg mb-3 d-flex gap-2">
+              <i class="bi bi-envelope-fill me-2"></i>
+              contact@ricr.in
+            </p>
+
+            <p class="lh-lg mb-4 d-flex gap-2">
+              <i class="bi bi-telephone-fill me-2"></i>
+              +91 0000000000
+            </p>
+
+            <div class="d-flex gap-4 mt-4">
+              <a href="#" class="text-white fs-4" class=""
+                ><i
+                  class="bi bi-facebook bg-light text-black rounded-circle d-flex overflow-hidden p-2"
+                ></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i
+                  class="bi bi-instagram bg-light text-black rounded-circle d-flex overflow-hidden p-2"
+                ></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i
+                  class="bi bi-youtube bg-light text-black rounded-circle d-flex overflow-hidden p-2"
+                ></i
+              ></a>
+              <a href="#" class="text-white fs-4"
+                ><i
+                  class="bi bi-linkedin bg-light text-black rounded-circle d-flex overflow-hidden p-2"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-light my-5" />
+
+        <div class="d-flex justify-content-between flex-wrap text-white-50">
+          <p class="mb-0">2025- Junaid khan | All Rights Reserved</p>
+          <p class="text-white text-decoration-none">Sitemap</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
