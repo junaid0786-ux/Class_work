@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#maindiv{
+    width: 100%;
+    height: 400px;
+}
+
+#divcontainer{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#imgdiv{
+    box-shadow: 1px 1px 5px black;
+}
+
+#scorediv{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
