@@ -1,0 +1,39 @@
+#maindiv{
+
+  width: 100%;
+  height: 100vh;
+  
+  
+}
+
+
+
+#content {
+  width: 90%;
+  height: 95vh;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(33, 33, 33);
+  
+}
+
+#image {
+  max-width:400px;
+  max-height: auto;
+}
+
+#workspace{
+    background-color: rgb(33, 33, 33);
+}
+
+#editTools{
+     background-color: rgb(71, 71, 71);
+     color: white;
+}
+
+#header1{
+    background-color: #0D6EFD;
+}
+#toolcontainer{
+    background-color: rgb(57, 57, 57);
+}

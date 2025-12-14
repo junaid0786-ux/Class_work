@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white py-3 mb-4">
+      <h1 class="text-center">Form Velidation</h1>
+    </header>
+
+    <main>
+      <div
+        class="container mt-5 shadow-lg p-4 rounded border border-primary d-flex flex-column gap-3"
+      >
+        <div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              autocomplete="no"
+            />
+            <span class="text-danger fs-6 Error float-end" id="nameError">
+            </span>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              autocomplete="no"
+            />
+            <span class="text-danger fs-6 Error float-end" id="emailError">
+            </span>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone:</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              autocomplete="no"
+            />
+            <span class="text-danger fs-6 Error float-end" id="phoneError">
+            </span>
+          </div>
+          <div class="mb-3">
+            <label for="Dob" class="form-label">Date of Birth:</label>
+            <input
+              type="date"
+              class="form-control"
+              id="Dob"
+              autocomplete="no"
+            />
+            <span
+              class="text-danger fs-6 Error float-end"
+              id="dateError"
+            ></span>
+          </div>
+        </div>
+        <div class="w-100 d-flex justify-content-center">
+          <button
+            type="submit"
+            class="btn btn-primary w-25 shadow"
+            onclick="submit()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
