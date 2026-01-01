@@ -1,0 +1,7 @@
+@media (max-width: 786px){
+    .main-container{
+        width: 100%;
+        height: 100vmax;
+        margin: 0;
+    }
+}

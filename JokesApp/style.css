@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.joke-card {
+  height: 460px;
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.241);
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.joke-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.35);
+}
+
+.joke-text {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.joke-punchline {
+  font-size: 1.2rem;
+  color: #bc2332;
+}
+
+.joke-btn {
+  background-color: #bc2332;
+  border-radius: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.joke-btn:active {
+  background-color: #de182c;
+  box-shadow: 0px 0px 10px #de182c;
+}
+
+.joke-divider {
+  opacity: 0.15;
+}
+
+.emoji-pop {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%) scale(0) rotateX(0deg);
+  font-size: 2.5rem;
+  animation: pop3d 0.8s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes pop3d {
+  0% {
+    transform: translateX(-50%) scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.3) rotateX(30deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-80px) scale(1);
+    opacity: 0;
+  }
+}

@@ -1,25 +1,23 @@
-var a = 10;
-var a = 20;
+// template literals
 
-let b = 10;
+// const user = "Junaid";
+// const age = 21;
 
-// console.log(a, b);
+// const greetOld = "hello my name is" + user + "and i am " + age + "years old ";
 
-let ar = ["Abc", 1234, "a", true];
-console.log(ar);
+// console.log(greetOld);
 
-alert("this is alert")
+// const greetNew = `hello my name is ${user} and i am ${age} years old `;
 
-console.warn("this is warning")
-console.error("this is error ")
+// console.log(greetNew);
 
-if (confirm ("are you sure")) {
-    console.log("thanks");
-    
-    
-} else {
-    console.log("its okk");
-    
-}
+// const multiLine = `
+// This is line 1
+// This is line 2 
+// This is line 3 
+// This is line 4 
+// `
+
+// console.log(multiLine);
 
 

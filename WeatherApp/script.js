@@ -8,7 +8,7 @@ async function getweather() {
 
   if (!city) {
     weatherResult.classList.remove("d-none");
-    weatherResult.innerHTML = `<p class="text-danger">Please enter a city name.</p>`;
+    weatherResult.innerHTML = `<p class="text-danger ">Please enter a city name.</p>`;
     weatherResult.classList.add("alert", "alert-danger");
     return;
   }
