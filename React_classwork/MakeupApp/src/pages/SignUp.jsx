@@ -132,7 +132,7 @@ const SignUp = () => {
             <div className="flex justify-between ">
               <div>
                 <h1>
-                  Already have account !{" "}
+                  Already have account !
                   <span>
                     <Link
                       to="/login"

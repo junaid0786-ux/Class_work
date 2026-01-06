@@ -1,0 +1,62 @@
+[
+  {
+    "countryName": "India",
+    "iso2": "IN",
+    "iso3": "IND",
+    "numericCode": "356"
+  },
+  {
+    "countryName": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "numericCode": "840"
+  },
+  {
+    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "numericCode": "826"
+  },
+  {
+    "countryName": "Canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "numericCode": "124"
+  },
+  {
+    "countryName": "Australia",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "numericCode": "036"
+  },
+  {
+    "countryName": "Germany",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "numericCode": "276"
+  },
+  {
+    "countryName": "France",
+    "iso2": "FR",
+    "iso3": "FRA",
+    "numericCode": "250"
+  },
+  {
+    "countryName": "Japan",
+    "iso2": "JP",
+    "iso3": "JPN",
+    "numericCode": "392"
+  },
+  {
+    "countryName": "China",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "numericCode": "156"
+  },
+  {
+    "countryName": "Brazil",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "numericCode": "076"
+  }
+]
